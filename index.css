@@ -1,0 +1,17 @@
+/* @import url(small.css) (min-width:0px);
+@import url(large.css) (min-width:900px); */
+
+:root {
+  --main-bg-color: white;
+  --main-text-color: #0f0f0f;
+}
+
+html {
+  display: block;
+  width: 100%;
+}
+
+body {
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+}
