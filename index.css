@@ -6,6 +6,11 @@
   --border: 10px solid yellow;
 }
 
+@font-face {
+  font-family: "Comic Sans";
+  src: url("https://github.com/antimatter15/doge/raw/master/Comic%20Sans%20MS.ttf");
+}
+
 html {
   display: block;
   width: 100%;
@@ -14,7 +19,7 @@ html {
 body {
   background-color: var(--main-bg-color);
   color: var(--main-text-color);
-  font-family: "Comic Sans MS", "Comic Sans", "Arial Narrow", cursive;
+  font-family: "Comic Sans MS", "Comic Sans", Arial, sans-serif;
 }
 
 ul {
