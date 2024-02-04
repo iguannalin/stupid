@@ -18,11 +18,21 @@ body {
   font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
+ul {
+  padding-left: 2px;
+}
+
 li {
   display: inline-block;
   background: yellow;
   padding: 2px 5px 0;
   margin: 0 0 5px 0px;
+  box-sizing: border-box;
+  word-break: break-word;
+}
+
+.section h3 {
+  padding: 24px;
   box-sizing: border-box;
 }
 
@@ -34,6 +44,8 @@ li {
   display: flex;
   width: 100vw;
   justify-content: center;
+  flex-flow: row wrap;
+  box-sizing: border-box;
 }
 
 .main {
@@ -50,6 +62,6 @@ li {
 }
 
 .column {
-  width: 50%;
+  width: 45%;
   max-width: 80ch;
 }
