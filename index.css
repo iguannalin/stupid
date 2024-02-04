@@ -19,24 +19,37 @@ body {
 }
 
 li {
-  display: inline;
+  display: inline-block;
   background: yellow;
-  padding: 2px 6px 0 0;
-  margin: 0 0 6px 2px;
+  padding: 2px 5px 0;
+  margin: 0 0 5px 0px;
+  box-sizing: border-box;
 }
 
 .header {
-  width: 20vw;
+  width: 35vw;
 }
 
-#container {
+.container {
   display: flex;
-  width: 90vw;
-  height: 90vh;
+  width: 100vw;
   justify-content: center;
+}
+
+.main {
   align-items: center;
 }
 
-#container div {
-  margin: 0 24px;
+.container div {
+  margin: 0 0 0 24px;
+}
+
+.schedule li {
+  display: block;
+  background: none;
+}
+
+.column {
+  width: 50%;
+  max-width: 80ch;
 }
