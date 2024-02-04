@@ -1,5 +1,4 @@
-/* @import url(small.css) (min-width:0px);
-@import url(large.css) (min-width:900px); */
+@import url(large.css) (min-width:900px);
 
 :root {
   --main-bg-color: white;
@@ -15,7 +14,7 @@ html {
 body {
   background-color: var(--main-bg-color);
   color: var(--main-text-color);
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-family: "Comic Sans MS", "Comic Sans", "Arial Narrow", cursive;
 }
 
 ul {
@@ -62,6 +61,6 @@ li {
 }
 
 .column {
-  width: 45%;
+  width: 100%;
   max-width: 80ch;
 }
