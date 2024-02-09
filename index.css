@@ -36,7 +36,7 @@ li {
 }
 
 .section h3 {
-  padding: 24px;
+  padding: 24px 24px 0;
   box-sizing: border-box;
 }
 
@@ -50,6 +50,18 @@ li {
   justify-content: center;
   flex-flow: row wrap;
   box-sizing: border-box;
+}
+
+.title {
+  width: 100vw;
+  padding: 24px;
+  text-align: center;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.title * {
+  max-width: 50ch;
 }
 
 .main {
@@ -68,4 +80,8 @@ li {
 .column {
   width: 100%;
   max-width: 80ch;
+}
+
+em {
+  margin-left: 32px;
 }
