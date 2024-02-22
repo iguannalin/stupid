@@ -86,3 +86,12 @@ li {
 em {
   margin-left: 32px;
 }
+
+table {
+  margin: 0 0 0 24px;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid;
+}
