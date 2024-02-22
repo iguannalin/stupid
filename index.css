@@ -70,7 +70,7 @@ li {
 }
 
 .container div {
-  margin: 0 24px;
+  margin: 0 0 0 24px;
 }
 
 .schedule li {
@@ -88,7 +88,7 @@ em {
 }
 
 table {
-  margin: 0 0 0 24px;
+  margin: 0 24px;
   border-collapse: collapse;
 }
 
