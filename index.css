@@ -1,4 +1,4 @@
-@import url(large.css) (min-width:900px);
+@import url(large.css) (min-width:750px);
 
 :root {
   --main-bg-color: white;
@@ -81,6 +81,31 @@ li {
 .column {
   width: 100%;
   max-width: 80ch;
+}
+
+.afterparty {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.afterparty em {
+  margin: 0;
+}
+
+.afterparty-details {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.sponsor-logos {
+  display: flex;
+  align-items: flex-start;
+  padding: 24px 24px 0 0;
+  justify-content: center;
+  flex-flow: column wrap;
 }
 
 em {
