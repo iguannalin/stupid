@@ -20,7 +20,6 @@ body {
   background-color: var(--main-bg-color);
   color: var(--main-text-color);
   font-family: "Comic Sans MS", "Comic Sans", Arial, sans-serif;
-  text-transform: lowercase;
 }
 
 ul {
